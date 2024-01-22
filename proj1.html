@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="proj.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <section>
+        <p>Cart Value: <span id="cartValue"></span></p>
+    </section>
+
+    <!-- Other cart-related content goes here -->
+
+    <footer>
+        <p>&copy; 2024 Aref Gaming Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // Retrieve cart value from the URL
+        $(document).ready(function () {
+            var urlParams = new URLSearchParams(window.location.search);
+            var cartValue = urlParams.get('cartValue');
+
+            // Display cart value
+            $('#cartValue').text(cartValue);
+        });
+
+    </script>
+     <div class="image-container">
+        <img src="images/rubon6369.jpg" alt="Gaming Image" width="1450px" height="650">
+        <div class="image-title">Gaming Title</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+   
+    background-image: url("https://img.freepik.com/premium-photo/illustration-gaming-background-abstract-cyberpunk-style-gamer-wallpaper-neon-glow-light-scifi-fluorescent-sticks-digitally-generated-image-based-any-actual-scene-pattern_479694-6130.jpg") ;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h1{
+    text-align: center;
+    color: #f74403;
+}
+nav{
+    background-color: #312c30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a {
+    color:#fafafa;
+    text-decoration: none;
+    margin: 0 150px;
+}
+
+p{
+    text-align: center;
+    color: #d61010;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 55px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  p{
+    text-align: center;
+    color: #d61010;
+}
+.badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #754343;
+    background: rgb(247, 241, 241);
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+.box{
+    width: 100%;
+}
+
+#search {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    color:#fafafa;
+}
+.fa{
+    font-size: 100px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .column:hover{
+    transform: scale(1.2);
+  }
