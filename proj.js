@@ -17,7 +17,7 @@ $("#first").mouseover(function(){
           x = add();
           elementVar.setAttribute("value", x);
           
-          // Update the cart value in the URL
+        
           $("#cart1").attr("href", "proj1.html?cartValue=" + x);
       });
   });
